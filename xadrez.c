@@ -16,7 +16,22 @@ int main() {
 
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
+    int numBispo = 0;
+    int numRainha = 0;
 
+    for (int i = 0; i < 5; i++) {
+        printf("Direita\n");
+    }
+
+    while (numBispo < 5) {
+        printf("Cima, Direita\n");
+        numBispo++;
+    }
+
+    do {
+        printf("Esquerda\n");
+        numRainha++;
+    } while (numRainha < 8);
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
